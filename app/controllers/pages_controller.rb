@@ -19,4 +19,9 @@ class PagesController < ApplicationController
     @birthyr = hello.birth_year
     @nicknm = hello.nickname
   end
+  
+  def me
+    iris = Person.new("iris", 20)
+  end
+  
 end
