@@ -6,6 +6,8 @@ class PagesController < ApplicationController
 
   def stringify
     @text = "You are nothing!"
+    @name = params[:name]
+    @adjective = params[:adjective]
   end
 
   def age
