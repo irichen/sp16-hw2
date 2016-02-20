@@ -1,3 +1,9 @@
 class Foobar
-  # ENTER CODE FOR Q2 HERE
+    def initialize(arg)
+        @poo = arg
+    end    
+        
+    def bar(input1, input2)
+        return "#{input1}#@poo#{input2[:sat]}"
+    end
 end
